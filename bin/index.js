@@ -2,7 +2,11 @@
 const filestool = require('../lib/filestool');
 
 (async () => {
-
-    await filestool.process();
-
+    try {
+        await filestool.process();
+    }
+    catch (err) {
+        console.log(err.message)
+        process.exit();
+    }
 })()
