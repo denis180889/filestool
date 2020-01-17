@@ -1,0 +1,20 @@
+{
+  "name": "filestool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/filestool.js",
+  "bin": {
+        "filestool": "./bin/index.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denis180889/filestool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denis180889/filestool/issues"
+  },
+  "homepage": "https://github.com/denis180889/filestool#readme"
+}
