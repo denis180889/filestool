@@ -9,9 +9,17 @@
             "request": "launch",
             "name": "Launch Program",
             "skipFiles": [
-                "<node_internals>/**"
+                "<node_internals>/**",
+                "node_modules/**"
             ],
-            "program": "${workspaceFolder}/bin/index.js"
+            "smartStep": true,
+            "sourceMaps": true,
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "program": "${workspaceFolder}/bin/index.js",
+            "args": [
+                "-s"
+            ]
         }
     ]
 }
