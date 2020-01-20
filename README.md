@@ -1,7 +1,7 @@
 ### This tool is an analog of _ls_ command  
 **For using:**  
 - pull repository into your local machine  
-- run _npm i command_ in project folder  
+- run _npm i_ command in project folder  
 - run _npm install -g ./_ in project folder  
 
 **Now you can use _filestool_ command:**  
